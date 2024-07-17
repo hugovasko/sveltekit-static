@@ -15,8 +15,7 @@ const config = {
 			fallback: 'index.html'
 		}),
 		paths: {
-			// base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-			base: process.argv.includes('dev') ? '' : '/sveltekit-static'
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
 		}
 	}
 };
